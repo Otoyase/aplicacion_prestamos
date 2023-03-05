@@ -12,7 +12,7 @@ function App() {
     axios.get("http://localhost:8000/api/prestamos").then((response) => {
       setListadoDePrestamos(response.data);
     });
-  });
+ñ  }, []);
 
   return (
     <div className="App">
